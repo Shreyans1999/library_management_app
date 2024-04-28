@@ -1,0 +1,24 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Management App</title>
+  <style>
+    .book-info {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Book Management App</h1>
+  <form id="addBookForm">
+    <label for="bookName">Book Name:</label>
+    <input type="text" id="bookName" name="bookName" required>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="bookList"></div>
+  <script src="index.js"></script>
+</body>
+</html>
